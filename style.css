@@ -1,1 +1,107 @@
+:root {
+  --primary: #032F60;
+  --secondary: #000080;
+  --accent: #ff6600;
+  --text: #ecf0f1;
+}
+
+body {
+  margin: 0;
+  padding: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--primary);
+  color: var(--text);
+}
+
+.player-container {
+  max-width: 100%;
+  max-height: 200%;
+  margin: 34 auto;
+     background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaauPq_PuHcoZJ7-0HW1mE0J1X5Lgucj3UcHm8V27l_qeDj13elBYHLYxsG_2-EtDfglRfM5uQQ9Qv2quyXtV5OzQMEGkxzqPQjU0FPRwM5n0yT3AJKPr0Thy_HnQC1V4HUakpeuTXXwHb6VEWeUchX3njRH7mCIUUH9Vmnqm4zfL_ESnt65RBzs2P-epK/s1600/Black%20&amp;%20Orange%20Simple%20Welcome%20To%20My%20Channel%20Youtube%20Intro_20240304_192908_0000.jpg"); 
+  border-radius: 10px;
+  border-margin: 10px;
+  margin-border: 10px;
+  border-color: var(--secondary)
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  background-image: url("/hura_tecnica_ar_01_m.webp"); 
+  border-radius: 0px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+video {
+  width: 100%;
+  border-radius: 0px;
+  margin: 0px 0;
+  padding: 0px 0px;
+  
+}
+
+.playlist {
+  border: 10px;
+  background-image: url("/hura_tecnica_ar_01_m.webp");        
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.playlist-item {
+  padding: 10px 15px;
+  margin: 5px 0;
+  background: rgba(220,220,220,0.1); 
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.playlist-item:hover {
+   background: var(--primary);
+  transform: translateX(5px);
+}
+
+.playlist-item.active {
+  background: var(--accent);
+  align-items: center;
+}
+
+.controls {
+  display: flex;
+  gap: 29px;
+  margin: 7px 0;
+  align-items: center;
+}
+
+button {
+  background: var(--accent);
+  border: none;
+  padding: 10px 21.5px;
+  border-radius: 5px;
+  color: var(--text);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-items: center;
+}
+
+button:hover {
+   background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3l7PARdbHxZ9fRrhlz0QXbWXiGjEwGpF_7l44XYd0AL_iLwFZjDk77dZqroRzM0uBQMKbHcEui_XpHmpBLFb57GzgzaDF6sR1CUIAi-krT7tjIfa3KeMBLnZcqdnx68CVxf3cdNpsCDHrjV8J7JJ1S8PnMtPduaQFDdG2s03_QmTUAimpQ6epjFpXTHt6/s1600/Black%20&amp;%20Orange%20Simple%20Welcome%20To%20My%20Channel%20Youtube%20Intro_20240304_174555_0000.jpg"); 
+  transform: scale(1.05);
+}
+
+.format-badge {
+  font-size: 0.8em;
+  padding: 3px 8px;
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaauPq_PuHcoZJ7-0HW1mE0J1X5Lgucj3UcHm8V27l_qeDj13elBYHLYxsG_2-EtDfglRfM5uQQ9Qv2quyXtV5OzQMEGkxzqPQjU0FPRwM5n0yT3AJKPr0Thy_HnQC1V4HUakpeuTXXwHb6VEWeUchX3njRH7mCIUUH9Vmnqm4zfL_ESnt65RBzs2P-epK/s1600/Black%20&amp;%20Orange%20Simple%20Welcome%20To%20My%20Channel%20Youtube%20Intro_20240304_192908_0000.jpg"); 
+  border-radius: 3px;
+  margin-left: auto;
+}
+
+
 
