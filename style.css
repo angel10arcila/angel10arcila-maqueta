@@ -1,4 +1,4 @@
-:root {
+ :root {
   --primary: #032F60;
   --secondary: #000080;
   --accent: #ff6600;
@@ -75,7 +75,7 @@ video {
 .controls {
   display: flex;
   gap: 5px;
-  margin: 15px 45px;
+  margin: 15px 48px;
   align-items: center;
 }
 
