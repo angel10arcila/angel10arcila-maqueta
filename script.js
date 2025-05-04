@@ -1,10 +1,11 @@
-// Configuración de medios predefinidos
+y// Configuración de medios predefinidos
 const mediaFiles = [
 
      {
-         name: "The clock - Ángel José Arcila Parra",
-         url: "https://raw.githubusercontent.com/angel10arcila/letraseningles/refs/heads/main/The Clock 1 Letra y Música de Ángel José Arcila Parra .mp3",
+         name: "Llanerato - Ángel José Arcila Parra",
+         url: "https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/El Llanerato V3 - Letra y Música de Ángel José Arcila Parra .mp3",
          type: "audio"
+         download: "https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/El Llanerato V3 - Letra y Música de Ángel José Arcila Parra .mp3"
      },
                  
 ];
