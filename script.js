@@ -5,7 +5,6 @@ const mediaFiles = [
          name: "Llanerato - Ángel José Arcila Parra",
          url: "https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/El Llanerato V3 - Letra y Música de Ángel José Arcila Parra .mp3",
          type: "audio"
-         download: "https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/El Llanerato V3 - Letra y Música de Ángel José Arcila Parra .mp3"
      },
                  
 ];
