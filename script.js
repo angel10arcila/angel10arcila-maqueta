@@ -13,7 +13,7 @@ const mediaFiles = [
           type: "audio",
      },
      
-  //eduardito narajo me iba a suplantar mi identidad.. a ok              
+  //eduardito narajo me iba a suplantar mi Identidad. a ok         
 ];
 
 let currentTrack = 0;
