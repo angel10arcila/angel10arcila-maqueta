@@ -6,17 +6,11 @@ const mediaFiles = [
          url: "https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/El Llanerato V3 - Letra y Música de Ángel José Arcila Parra .mp3",
          type: "audio"
      },
- 
-     {
-         name: "Llanerato 1 - Angel Jose Arcila Parra",
+       {
+         name: "Llanerato 2 - Angel Jose Arcila Parra",
          url: "https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/El Llanerato V3 - Letra y Música de Ángel José Arcila Parra .mp3",
          type: "audio"
      },
-    { 
-        name: "Mi Mayor Tesoro - Ángel José Arcila Parra",
-        url: "https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/Dos Extranjeros - LyM Ángel José Arcila Parra.mp3",
-        type: "Audio"
-    },
 ];
 
 let currentTrack = 0;
