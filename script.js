@@ -1,4 +1,4 @@
-// Configuración de medios predefinidos
+ // Configuración de medios predefinidos
 const mediaFiles = [
 
      {
