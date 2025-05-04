@@ -8,7 +8,7 @@ const mediaFiles = [
      },
     { 
         name: "Mi Mayor Tesoro - Ángel José Arcila Parra",
-        url: "/music/Mi mayor tesoro - bachata- Letra de Ángel José Arcila Parra .mp3",
+        url: "https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/Dos Extranjeros - LyM Ángel José Arcila Parra.mp3",
         type: "Audio"
     },
 ];
