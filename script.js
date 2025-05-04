@@ -6,13 +6,11 @@ const mediaFiles = [
          url: "https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/El Llanerato V3 - Letra y Música de Ángel José Arcila Parra .mp3",
          type: "audio",
      },
-     {
-          name: "Llanerato 2 - Ángel José Arcila Parra",
-          url: "https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/El Llanerato V3 - Letra y Música de Ángel José Arcila Parra .mp3",
-          type: "audio",
+          {
+         name: "Llanerato - Ángel José Arcila Parra",
+         url: "https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/El Llanerato V3 - Letra y Música de Ángel José Arcila Parra .mp3",
+         type: "audio",
      },
-     
-  //eduardito narajo me iba a suplantar mi Identidad. a ok         
 ];
 
 let currentTrack = 0;
