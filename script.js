@@ -6,11 +6,7 @@ const mediaFiles = [
          url: "https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/El Llanerato V3 - Letra y Música de Ángel José Arcila Parra .mp3",
          type: "audio"
      },
-       {
-         name: "Llanerato 2 - Angel Jose Arcila Parra",
-         url: "https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/Dos Extranjeros - LyM Ángel José Arcila Parra.mp3",
-         type: "audio"
-     },
+       
 ];
 
 let currentTrack = 0;
