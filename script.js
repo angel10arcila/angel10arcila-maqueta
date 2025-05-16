@@ -3,18 +3,23 @@ const mediaFiles = [
 
 
     {
-         name: "El Llanerato Vallenato - Ángel José Arcila Parra",
+         name: "El Llanerato Vallenato 1 - Ángel José Arcila Parra",
          url: "https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/Llanerato - Versión Vallenata.mp3",
          type: "audio"
      },
      {
-         name: "El Llanerato Vallenato - Ángel José Arcila Parra",
+         name: "El Llanerato Vallenato 2 - Ángel José Arcila Parra",
          url: "https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/Llanerato - Versión Vallenata 1.mp3",
          type: "audio"
      },
      {
-         name: "El Llanerato Ranchera - Ángel José Arcila Parra",
+         name: "El Llanerato Ranchera 1 - Ángel José Arcila Parra",
          url: "https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/Llanerato - version ranchera.mp3",
+         type: "audio"
+     },
+    {
+         name: "El Llanerato Ranchera 2 - Ángel José Arcila Parra",
+         url: "https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/Llanerato - version ranchera 1.mp3",
          type: "audio"
      },
      {
