@@ -1,4 +1,4 @@
-// Configuración de medios predefinidos
+ // Configuración de medios predefinidos
 const mediaFiles = [
 
 
@@ -14,12 +14,12 @@ const mediaFiles = [
      },
      {
          name: "El Llanerato Ranchera 1 - Ángel José Arcila Parra",
-         url: "https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/Llanerato - version ranchera.mp3",
+         url: "https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/Llanerato version ranchera.mp3",
          type: "audio"
      },
     {
          name: "El Llanerato Ranchera 2 - Ángel José Arcila Parra",
-         url: "https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/Llanerato - version ranchera 1.mp3",
+         url: "https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/Llanerato version ranchera 1.mp3",
          type: "audio"
      },
      {
