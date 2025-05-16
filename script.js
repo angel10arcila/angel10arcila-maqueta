@@ -1,6 +1,12 @@
 // Configuración de medios predefinidos
 const mediaFiles = [
 
+
+    {
+         name: "El Llanerato Vallenato - Ángel José Arcila Parra",
+         url: "https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/Llanerato - Versión Vallenata.mp3",
+         type: "audio"
+     },
      {
          name: "El Llanerato - Ángel José Arcila Parra",
          url: "https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/El Llanerato V3 - Letra y Música de Ángel José Arcila Parra .mp3",
