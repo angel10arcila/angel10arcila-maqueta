@@ -7,7 +7,7 @@
   "theme_color": "#317EFB",
   "icons": [
     {
-      "src": "logo-vear192x192.png",
+      "src": "https://raw.githubusercontent.com/angel10arcila/angel10arcila-maqueta/refs/heads/main/Logo-vea%20192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
