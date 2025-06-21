@@ -16,6 +16,28 @@ document.oncontextmenu = function(){return false;}
 <link href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4nbcupGU0nqmpJSLgKlUR3R7SgmtBeAyOUC-UPy5M7edq8OxwWWBPOYJwH8sMUMP7pth0v0dm06CBS_rmR47MiPmmTVdp4IBGFiPkfuLSDA5_hoTJoquBR8_0j6NQUgmKgrRDNyxC3TsTmYIPxLj3ldpAvxPJ8tsT2d3wUPc8LcLQ4Z5Cf3lUP_unmqWC/s1600/venearci.png" rel="icon">
 <meta http-equiv=refresh content=>    
  <link rel="stylesheet" href="style.css">
+
+ <!-- Manifesto PWA -->
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Icono para añadir al inicio -->
+  <link rel="icon" href="logo-vear192x192.png<" type="image/png">
+
+  <!-- Color del tema en móviles -->
+  <meta name="theme-color" content="#317EFB">
+
+  <!-- Service Worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(reg => console.log('SW registrado', reg))
+          .catch(err => console.log('SW fallo', err));
+      });
+    }
+  </script>
+ 
+
 </head>
 <body>
 
