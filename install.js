@@ -14,7 +14,7 @@ if (
   // Solo intenta registrar si el script está en la misma ruta de origen.
   // window.location.origin+window.location.pathname es la raíz.
   // El script debe estar alojado en la misma URL donde se hará deploy!
-  // Los SW no pueden cargar desde sitios externos ni a través de un redirect (como en websim).
+  // Los SW no pueden cargar desde sitios externos ni a través de un redirect ().
   navigator.serviceWorker.register('./sw.js').catch(err => {
     // Muestra el error en la consola y opcionalmente lo muestra de forma visible
     console.warn("Error registrando el Service Worker:", err);
