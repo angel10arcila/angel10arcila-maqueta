@@ -1,0 +1,41 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Instala acceso directo venearci</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#20439b">
+</head>
+<body>
+  <!-- Página original en iframe -->
+  <iframe id="main-iframe" src="https://angel10arcila.github.io/venearci-tv/=""</" style="width:100vw;height:100vh;border:0;position:fixed;top:0;left:0;z-index:0;"></iframe>
+  
+  <!-- Modal de instalación -->
+  <div id="install-modal" class="modal">
+    <div class="modal-content">
+      <span class="modal-close" id="modal-close">&times;</span><center>
+      <img src="https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/venearci-logo.png" width="72px" height="72px"></center>
+      <h2>¡Instala el acceso directo!</h2>
+      <p>Agrega a venearci a tu pantalla de inicio para acceder rápidamente.</p>
+      
+      <button id="install-btn">Instalar</button>
+      <div id="instructions" style="display:none; margin-top:1em;">
+        <p>
+            
+          <b>Para instalar manualmente:</b><br>
+          Pulsa el menú de tu navegador (<span style="font-size:1.2em;">⋮</span> o <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Chrome_menu_icon.png" style="height:1em" alt="menú">) y selecciona <b>Agregar a pantalla de inicio</b>.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script type="importmap">
+    {
+      "imports": {}
+    }
+  </script>
+  <!-- Se importa versión actualizada de install.js que resuelve problemas SW -->
+  <script type="module" src="install.js"></script>
+</body>
+</html>
