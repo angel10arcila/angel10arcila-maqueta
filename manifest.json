@@ -1,0 +1,22 @@
+{
+  "name": "Angel10Arcila Maqueta",
+  "short_name": "MaquetaArcila",
+  "start_url": "https://angel10arcila.github.io/angel10arcila-maqueta/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#20439b",
+  "description": "Acceso directo e instalación rápida Angel10Arcila Maqueta",
+  "icons": [
+    {
+      "src": "https://angel10arcila.github.io/angel10arcila-maqueta/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://angel10arcila.github.io/angel10arcila-maqueta/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
+
