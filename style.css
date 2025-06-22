@@ -4,7 +4,14 @@
   --accent: #ff6600;
   --text: #ecf0f1;
 }
-
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: sans-serif;
+}
 body {
   margin: 0;
   padding: 0px;
