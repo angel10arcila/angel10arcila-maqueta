@@ -1,0 +1,62 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+/* Modal styles */
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 10000;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.55);
+}
+
+.modal-content {
+  background: #fff;
+  padding: 2em 2.5em 1.5em 2.5em;
+  border-radius: 10px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.23);
+  text-align: center;
+  min-width: 270px;
+  max-width: 90vw;
+  position: relative;
+}
+
+.modal h2 {
+  margin-top: 0;
+  color: #20439b;
+}
+
+.modal-close {
+  position: absolute;
+  top: 0.8em;
+  right: 1em;
+  font-size: 1.4em;
+  color: #888;
+  cursor: pointer;
+}
+
+#install-btn {
+  margin-top: 1em;
+  background: #20439b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.6em 2em;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+#install-btn:active {
+  background: #132255;
+}
+
