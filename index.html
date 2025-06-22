@@ -56,9 +56,16 @@ document.oncontextmenu = function(){return false;}
   <script type="module" src="install.js"></script>
   
  
- <div class="player-container">
+<div class="player-container">
     <div class="logo">
-     <br>
+        <center>
+
+   <br>
+  </center>
+  
+ <center>    
+  <div class="video-container">
+
 <center>
 <table 
 bgcolor="#66ff00" 
@@ -74,14 +81,30 @@ width="100%">
 </tr>
 </table>
 </center> 
-
-  
-  <div class="video-container">
+ <center>
+<table 
+bgcolor="#66ff00" 
+width="100%" 
+height="2%" 
+bordercolor="#ff6600">
+<tr>
+<td bgcolor="#ff6600" 
+width="100%">
     <video id="mediaPlayer" poster="https://raw.githubusercontent.com/angel10arcila/angeljosearcilaparra/refs/heads/main/2_20241121_202349_0001.png">
       Tu navegador no soporta el elemento de video.
-    </video>
-     
-<center>
+</video>
+    <center>
+  <div class="controls">
+  <button onclick="previousTrack()">  ⏮️ </button>
+  <button onclick="playPause()"> ⏯️</button>
+  <button onclick="nextTrack()"> ⏭️ </button>
+  <button onclick="toggleMute()"> 📴 </button>
+  </center>
+  <center> 
+</center></td>
+</tr>
+</table>
+
 <table 
 bgcolor="#66ff00" 
 width="100%" 
@@ -94,11 +117,7 @@ width="100%">
     <marquee direction="rigth" scrollmount="3" scrolldelay="10" bgcolor="#fff" width="100%" height="20px"><font color="#3f2215"> ÁNGEL JOSÉ ARCILA PARRA - venearci</font></marquee></center> 
 </center></td>
 </tr>
-</table>
-</center> 
-</center>
-  
-</div>
+</table></div></div>
   
   <div class="playlist" id="playlist">
     <!-- La playlist se generará dinámicamente -->
