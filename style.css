@@ -72,6 +72,8 @@ video {
 }
 
 .controls {
+  align-items: center;
+  justify-content: center;
   display: flex;
   gap: 29px;
   margin: 7px 0;
